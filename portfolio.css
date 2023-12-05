@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 101, 183);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main hr{
+    border: 0;
+    background: rgb(240, 86, 10);
+    margin: 40px 83px;
+    height: 2.7px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(3, 64, 118);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: rgb(235, 42, 42);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.lsection {
+    font-size: 3rem;
+    width: 30%;
+}
+
+.lsection .btn{
+    background: rgb(117, 125, 7);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius:6px;
+    font-size :20px;
+    cursor: pointer;
+}
+
+.rsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.green{
+    color:rgb(72, 2, 68);
+}
+
+.second{
+    margin:auto;
+    max-width: 80vw ;
+    height: 80vh;
+}
+
+.second .box{
+    background:white;
+    width:68vw;
+    height:2px;
+    margin:56px 0;
+    display:flex;
+}
+
+.second .vertical{
+    height: 75px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    width: 30px;
+    top: -32px;
+    left: -10px;
+    position: relative;
+}
+
+.vertical-text{
+    position: relative;
+    top: 40px;
+    width:150px;
+    left: -10px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(3, 64, 118);
+    height: 200px;
+}
+
+.footer-first{
+    display: flex;
+    margin: 20px 100px;
+}
+ 
+
+footer ul{
+    list-style: none;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+
